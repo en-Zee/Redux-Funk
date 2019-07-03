@@ -1,14 +1,23 @@
 {
-  "name": "redux-funk",
+  "name": "@enzee/redux-funk",
   "version": "1.0.0",
-  "description": "function subscribers for Redux",
+  "license": "MIT",
+  "description": "Function subscribers for Redux.",
+  "repository": "github:en-Zee/redux-funk",
+  "bugs": "https://github.com/en-Zee/Redux-Funk/issues",
+  "homepage": "https://github.com/en-Zee/Redux-Funk",
+  "keywords": [
+    "redux",
+    "funk",
+    "subscribe",
+    "redux functions"
+  ],
+  "author": "enZee",
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "enZee",
-  "license": "MIT",
   "devDependencies": {
     "babel-core": "6.26.0",
     "babel-loader": "6.4.1",
@@ -16,8 +25,5 @@
     "chai": "4.1.2",
     "mocha": "3.5.3",
     "redux": "^4.0.1"
-  },
-  "dependencies": {
-    "redux-starter-kit": "^0.5.1"
   }
 }

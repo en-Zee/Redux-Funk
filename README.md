@@ -2,11 +2,11 @@ Redux Funk
 =============
 
 ```js
-npm install redux-funk
+npm install @enzee/redux-funk
 ```
 
 ```js
-yarn add redux-funk
+yarn add @enzee/redux-funk
 ```
 
 ## Importing and usage
