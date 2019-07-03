@@ -31,6 +31,11 @@ import {greetWho} from './connectedFunctions';
 greetWho();
 ```
 
+## How does it work?
+
+The function ```mapStateToFuncs``` recieves the ```retrieve``` function as an argument and you use it to wrap it around the functions. You must wrap all functions that you want connected and they **must** all accept the parameter ```state``` as the first parameter! You can then access that state parameter within your function as you see fit. You can renamed your exports within the ```mapStateToFuncs``` as well. 
+
+
 ## Why Do I Need This?
 
 This is my solution to getting data from the Redux store as it updates. There are certain times where a dumb component might need data from the Redux store, but is nested too deeply to pass the data along using props. Redux-Funk is just a thin wrapper that subscribes to state changes from withing the redux storemaking it immensely useful for grabbing variables from your syore to serve as globals as you send dispatched actions.
