@@ -1,9 +1,9 @@
 const connect = (store) => {
     return (mapStateToFuncs) => {
         let retrieve = (func) =>{
-            let wrapper = () => {
+            let wrapper = (...rest) => {
                 let currentState = store.getState();
-                return func(currentState)
+                return func(currentState, ...rest)
             }
             store.subscribe(wrapper)
             return wrapper;

@@ -1,6 +1,6 @@
 {
   "name": "@enzee/redux-funk",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "license": "MIT",
   "description": "Function subscribers for Redux.",
   "repository": "github:en-Zee/redux-funk",
