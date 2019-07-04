@@ -1,6 +1,6 @@
 {
   "name": "@enzee/redux-funk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "Function subscribers for Redux.",
   "repository": "github:en-Zee/redux-funk",
@@ -13,7 +13,7 @@
     "redux functions"
   ],
   "author": "enZee",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --recursive ./test",
     "test:watch": "npm run test -- --watch"
