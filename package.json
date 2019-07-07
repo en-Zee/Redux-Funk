@@ -1,6 +1,6 @@
 {
   "name": "@enzee/redux-funk",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "license": "MIT",
   "description": "Function subscribers for Redux.",
   "repository": "github:en-Zee/redux-funk",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "babel-core": "6.26.0",
-    "babel-loader": "6.4.1",
+    "babel-loader": "8.0.5",
     "babel-preset-env": "1.6.1",
     "chai": "4.1.2",
     "mocha": "3.5.3",
